@@ -73,4 +73,6 @@ The final manuscript analysis was run with Python 3.13.5, NumPy 2.3.5, pandas 2.
 
 ## License
 
-The analysis code in this repository is released under the MIT License. This license does **not** apply to the SIHBS microdata, which remain subject to SNBS access and use conditions.
+The analysis code and repository documentation are released under the MIT License.
+
+The SIHBS 2022 microdata are not covered by this license. They remain subject to the access and use conditions of the Somalia National Bureau of Statistics (SNBS) and are not redistributed in this repository.
