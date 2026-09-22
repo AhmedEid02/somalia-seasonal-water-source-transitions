@@ -1,0 +1,24 @@
+﻿Type,File,Variable,Definition / role
+Raw,hh(2).dta,hid,Unique household identifier; merge key
+Raw,hh(2).dta,wgt,Household survey weight
+Raw,hh(2).dta,region_n,Region identifier used for regional heterogeneity and grouped validation
+Raw,hh(2).dta,ea_type_n,"Residence type: urban, rural, nomadic"
+Raw,hh(2).dta,hh_water_type,Principal rainy-season drinking-water source
+Raw,hh(2).dta,hh2_10,Whether the household uses the same water source in the dry season
+Raw,hh(2).dta,hh2_11,Principal dry-season source when it differs from the rainy-season source
+Raw,hh(2).dta,hhsize,Household size
+Raw,hh(2).dta,hh1_17,Distance to nearest all-season road; treated cautiously because of upper-tail outliers
+Raw,hhm(2).dta,qsn1_04,Relationship to household head; used to identify head
+Raw,hhm(2).dta,qsn1_03,Sex; used for female-headed-household indicator
+Raw,hhm(2).dta,qsn2_05,School-attendance history of household head
+Raw,agland(2).dta,hid,Presence in agricultural-land roster contributes to agricultural participation
+Raw,agland(2).dta,land6_05,"Number of agricultural seasons utilized, Gu 2021 to Jilal 2022"
+Raw,agland(2).dta,land6_07,Main irrigation-water source
+Raw,crops(2).dta,crop6_21,Reported crop production during Gu 2021 to Jilal 2022; used to capture crop-producing households absent from agricultural-land roster
+Raw,livestock_own(1).dta,hid,Presence in livestock roster contributes to livestock participation
+Derived,,rain_family,"Rainy-season source grouped into private piped, public network, groundwater, rain/surface, delivered/vendor, or other/social"
+Derived,,dry_family,Dry-season source using the same six-system grouping
+Derived,,substantive_transition,1 when rainy- and dry-season broad source systems differ; primary outcome
+Derived,,agriculture_hh,Agricultural participation = agricultural-land roster OR any crop6_21=Yes
+Derived,,livestock_hh,Livestock participation based on livestock roster presence
+Derived,,livelihood,"Mutually exclusive: agriculture only, livestock only, mixed crop-livestock, other"

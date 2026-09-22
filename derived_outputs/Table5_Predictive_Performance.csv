@@ -1,0 +1,7 @@
+﻿Validation,Model,ROC-AUC,PR-AUC,Brier score
+Random stratified 5-fold,Logistic regression,0.766,0.361,0.088
+Random stratified 5-fold,Random forest,0.769,0.406,0.088
+Random stratified 5-fold,Gradient boosting,0.764,0.401,0.088
+Region-grouped 5-fold,Logistic regression,0.704,0.281,0.095
+Region-grouped 5-fold,Random forest,0.702,0.285,0.097
+Region-grouped 5-fold,Gradient boosting,0.694,0.285,0.100

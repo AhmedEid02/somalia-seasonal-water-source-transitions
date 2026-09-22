@@ -1,0 +1,25 @@
+pathway,N,weighted_share_percent
+Rain/surface -> Groundwater,312,24.13018
+Rain/surface -> Delivered/vendor,149,13.225583
+Groundwater -> Delivered/vendor,93,12.803222
+Private piped -> Groundwater,87,10.059783
+Delivered/vendor -> Groundwater,50,6.612843
+Groundwater -> Public network,42,4.9373426
+Groundwater -> Rain/surface,48,4.8766136
+Private piped -> Delivered/vendor,46,4.5212855
+Public network -> Groundwater,21,3.0025558
+Rain/surface -> Public network,29,2.7980146
+Private piped -> Public network,30,2.6886992
+Delivered/vendor -> Rain/surface,15,2.5067804
+Public network -> Private piped,19,1.9167438
+Groundwater -> Private piped,21,1.4191365
+Rain/surface -> Private piped,15,1.3273771
+Private piped -> Rain/surface,3,1.1326332
+Delivered/vendor -> Private piped,10,0.68972874
+Public network -> Delivered/vendor,6,0.6112642
+Delivered/vendor -> Public network,3,0.27723223
+Public network -> Other/social,2,0.14605868
+Other/social -> Groundwater,1,0.13182056
+Other/social -> Delivered/vendor,2,0.10678327
+Rain/surface -> Other/social,1,0.04696737
+Other/social -> Private piped,1,0.031364024

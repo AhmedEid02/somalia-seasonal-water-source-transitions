@@ -1,0 +1,9 @@
+﻿Rainy → dry pathway,Unweighted n,Weighted share of substantive transitions (%)
+Rain/surface → Groundwater,312,24.13
+Rain/surface → Delivered/vendor,149,13.23
+Groundwater → Delivered/vendor,93,12.80
+Private piped → Groundwater,87,10.06
+Delivered/vendor → Groundwater,50,6.61
+Groundwater → Public network,42,4.94
+Groundwater → Rain/surface,48,4.88
+Private piped → Delivered/vendor,46,4.52
