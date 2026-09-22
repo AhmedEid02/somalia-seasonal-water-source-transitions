@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these materials, please cite this repository and the associated manuscript."
 
-title: "Reproducibility materials for Seasonal water-source transitions across livelihood systems in Somalia"
+title: "Reproducibility materials for seasonal water-source transitions across livelihood systems in Somalia"
 
 type: software
 
@@ -11,7 +11,7 @@ authors:
     email: "eid.hussein02@gmail.com"
     affiliation: "National Institute for Climate Change and Environmental Resilience (NICER), University of Hargeisa"
 
-version: "1.0.0"
+version: "1.0.1"
 
 date-released: "2026-09-22"
 
