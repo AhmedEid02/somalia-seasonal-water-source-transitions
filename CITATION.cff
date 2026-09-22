@@ -1,11 +1,30 @@
 cff-version: 1.2.0
+message: "If you use these materials, please cite this repository and the associated manuscript."
+
 title: "Reproducibility materials for Seasonal water-source transitions across livelihood systems in Somalia"
-message: "If you use these materials, please cite the associated manuscript and this repository."
+
 type: software
+
 authors:
-  - family-names: Ismail
-    given-names: Ahmed Hussein
-    email: eid.hussein02@gmail.com
-    affiliation: "University of Hargeisa"
-year: 2026
+  - family-names: "Ismail"
+    given-names: "Ahmed Hussein"
+    email: "eid.hussein02@gmail.com"
+    affiliation: "National Institute for Climate Change and Environmental Resilience (NICER), University of Hargeisa"
+
+version: "1.0.0"
+
+date-released: "2026-09-22"
+
+repository-code: "https://github.com/AhmedEid02/somalia-seasonal-water-source-transitions"
+
+url: "https://github.com/AhmedEid02/somalia-seasonal-water-source-transitions"
+
 license: MIT
+
+keywords:
+  - water security
+  - seasonal water sources
+  - livelihoods
+  - Somalia
+  - SIHBS
+  - reproducible research
