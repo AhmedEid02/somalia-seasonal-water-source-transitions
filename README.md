@@ -34,7 +34,7 @@ This DOI identifies the archived release associated with the manuscript.
 
 The analysis uses third-party microdata from the **Somalia Integrated Household Budget Survey (SIHBS) 2022**, produced by the Somalia National Bureau of Statistics. Raw microdata are **not redistributed** in this repository.
 
-Official catalogue:
+Official catalogue:  
 https://microdata.nbs.gov.so/index.php/catalog/59
 
 Researchers should obtain the data from SNBS under the applicable access terms and place the required `.dta` files in a local directory. See `data/README.md`.
@@ -45,39 +45,43 @@ Create a Python environment and install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
+```
 
 Run:
 
+```bash
 python analysis/reproduce_analysis.py \
   --data-dir /path/to/SIHBS_2022_files \
   --output-dir derived_outputs
+```
 
 Required files:
 
-hh(2).dta
-hhm(2).dta
-agland(2).dta
-crops(2).dta
-livestock_own(1).dta
+- `hh(2).dta`
+- `hhm(2).dta`
+- `agland(2).dta`
+- `crops(2).dta`
+- `livestock_own(1).dta`
 
-The script reconstructs the final livelihood classification used in the manuscript: agriculture participation is defined from agricultural-land participation or reported crop production, while livestock participation is identified from the livestock-ownership roster.
+The script reconstructs the final livelihood classification used in the manuscript: agriculture participation is defined from agricultural-land participation **or** reported crop production, while livestock participation is identified from the livestock-ownership roster.
 
-Key audit values
+## Key audit values
 
 A successful run should reproduce:
 
-7,212 households
-weighted prevalence of any rainy-to-dry source change: approximately 17.25%
-weighted prevalence of substantive source-system transition: approximately 12.00%
-agriculture only: 231 households
-livestock only: 1,974 households
-mixed crop-livestock: 549 households
-other: 4,458 households
-Software
+- 7,212 households
+- weighted prevalence of any rainy-to-dry source change: approximately 17.25%
+- weighted prevalence of substantive source-system transition: approximately 12.00%
+- agriculture only: 231 households
+- livestock only: 1,974 households
+- mixed crop-livestock: 549 households
+- other: 4,458 households
+
+## Software
 
 The final manuscript analysis was run with Python 3.13.5, NumPy 2.3.5, pandas 2.2.3, statsmodels 0.14.6, and scikit-learn 1.8.0.
 
-License
+## License
 
 The analysis code and repository documentation are released under the MIT License.
 
